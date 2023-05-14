@@ -1,4 +1,4 @@
-name: backup
+name: backup-codebase-to-s3
 on:
   workflow_call:
   schedule:
