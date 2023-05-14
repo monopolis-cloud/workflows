@@ -1,5 +1,6 @@
-name: monopolis-backup
+name: backup
 on:
+  workflow_call:
   schedule:
     - cron: '0 21 * * *' # Every day at 21:00
   workflow_dispatch:
